@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Urbanist, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.slideshow-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+}
+
+#art-image {
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    background-color: lightgrey;
+    font-family: Urbanist, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 12px;
+}
